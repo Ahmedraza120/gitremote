@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 hello boss
 hello kichha
+=======
+hello  d boss 
+>>>>>>> origin/abhijeet
