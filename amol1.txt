@@ -13,8 +13,12 @@ hello  d boss
 >>>>>>> 05b394b4ad38096bb8f2961a0a11d445c6776e5e
 =======
 >>>>>>> origin/abhijeet
+<<<<<<< HEAD
 >>>>>>> amol1
 <<<<<<< HEAD
 =======
 >>>>>>> 671ae36 (amol1)
 >>>>>>> 7f3b29b (j)
+=======
+fdf
+>>>>>>> 1ec379e (fdf)
