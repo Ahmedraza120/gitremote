@@ -1,15 +1,21 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 hello  d boss 
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 523f996 (hi)
 =======
 hello  d boss 
 =======
 <<<<<<< HEAD
 >>>>>>> 7f3b29b (j)
+<<<<<<< HEAD
+>>>>>>> 523f996 (hi)
+=======
 >>>>>>> 523f996 (hi)
 hello boss
 hello kichha
@@ -21,9 +27,15 @@ hello  d boss
 >>>>>>> origin/abhijeet
 >>>>>>> amol1
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 671ae36 (amol1)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 671ae36 (amol1)
+>>>>>>> 7f3b29b (j)
+>>>>>>> 523f996 (hi)
+=======
 =======
 >>>>>>> 671ae36 (amol1)
 >>>>>>> 7f3b29b (j)
