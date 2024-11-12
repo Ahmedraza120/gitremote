@@ -1,0 +1,121 @@
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git init
+Initialized empty Git repository in D:/lab9/.git/
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ nano exp9.txt
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git add .
+warning: in the working copy of 'exp9.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git commit -m "first commit"
+[master (root-commit) 0cea483] first commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 exp9.txt
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ nano exp9.txt
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git add .
+warning: in the working copy of 'exp9.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git commit -m "second commit"
+[master 58432f3] second commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ nano exp9.txt
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git add .
+warning: in the working copy of 'exp9.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git commit -m "third commit"
+[master d1534df] third commit
+ 1 file changed, 1 insertion(+)
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ nano exp9.txt
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git add .
+warning: in the working copy of 'exp9.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git commit -m "fourth commit"
+[master 7ecd5f2] fourth commit
+ 1 file changed, 1 insertion(+)
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ nano exp9.txt
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git add .
+warning: in the working copy of 'exp9.txt', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git commit -m "fifth commit"
+[master 53cd6e3] fifth commit
+ 1 file changed, 1 insertion(+)
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git log
+commit 53cd6e373c584c7683449fcb0b96507b97daaccd (HEAD -> master)
+Author: Ahmedraza120 <sumitsalunke018@gmail.com>
+Date:   Mon Nov 11 09:42:49 2024 +0530
+
+    fifth commit
+
+commit 7ecd5f2f2d4f151628934fb564e1032e88a2f140
+Author: Ahmedraza120 <sumitsalunke018@gmail.com>
+Date:   Mon Nov 11 09:42:22 2024 +0530
+
+    fourth commit
+
+commit d1534dffc6bac38716f28f60d50e5163835d97a0
+Author: Ahmedraza120 <sumitsalunke018@gmail.com>
+Date:   Mon Nov 11 09:41:36 2024 +0530
+
+    third commit
+
+commit 58432f36b12b595b84a172df9486b1369baae724
+Author: Ahmedraza120 <sumitsalunke018@gmail.com>
+Date:   Mon Nov 11 09:41:06 2024 +0530
+
+    second commit
+
+commit 0cea4830fd55d2fcb273bfffa3686d464800b552
+Author: Ahmedraza120 <sumitsalunke018@gmail.com>
+Date:   Mon Nov 11 09:39:52 2024 +0530
+
+    first commit
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git show 7ecd5f2f2d4f151628934fb564e1032e88a2f140
+commit 7ecd5f2f2d4f151628934fb564e1032e88a2f140
+Author: Ahmedraza120 <sumitsalunke018@gmail.com>
+Date:   Mon Nov 11 09:42:22 2024 +0530
+
+    fourth commit
+
+diff --git a/exp9.txt b/exp9.txt
+index 90dc5cb..d18bc0f 100644
+--- a/exp9.txt
++++ b/exp9.txt
+@@ -1,3 +1,4 @@
+ first commit
+ second commit
+ third commit
++fourth commit
+
+BLDEA-CSE@DESKTOP-P6JD44D MINGW64 /d/lab9 (master)
+$ git log -n 1
+commit 53cd6e373c584c7683449fcb0b96507b97daaccd (HEAD -> master)
+Author: Ahmedraza120 <sumitsalunke018@gmail.com>
+Date:   Mon Nov 11 09:42:49 2024 +0530
